@@ -1,4 +1,4 @@
-package mentorship.roadmap.step_2_core.step2.arrays.step3_ReverseArray;
+package mentorship.roadmap.step_2_core.step2.arrays.task3_ReverseArray;
 
 public class ReverseArray {
 

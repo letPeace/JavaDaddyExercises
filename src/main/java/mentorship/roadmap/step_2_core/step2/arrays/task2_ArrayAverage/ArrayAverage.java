@@ -1,4 +1,4 @@
-package mentorship.roadmap.step_2_core.step2.arrays.step2_ArrayAverage;
+package mentorship.roadmap.step_2_core.step2.arrays.task2_ArrayAverage;
 
 public class ArrayAverage {
 
