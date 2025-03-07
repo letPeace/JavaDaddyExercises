@@ -1,4 +1,4 @@
-package mentorship.roadmap.step_2_core.step2.arrays.step1_CountOccurrences;
+package mentorship.roadmap.step_2_core.step2.arrays.task1_CountOccurrences;
 
 public class CountOccurrences {
 
