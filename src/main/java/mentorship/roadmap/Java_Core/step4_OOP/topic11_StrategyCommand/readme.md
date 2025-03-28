@@ -21,12 +21,3 @@
 
 Такой подход помогает избежать длинных конструкций switch-case, улучшает расширяемость кода (новые команды добавляются
 без изменения существующего логического блока) и повышает читаемость и поддерживаемость кода.
-
-## Файлы:
-
-- `Command.java`
-- `StartCommand.java`
-- `StopCommand.java`
-- `PauseCommand.java`
-- `CommandProcessor.java`
-- `StrategyCommandDemo.java`
