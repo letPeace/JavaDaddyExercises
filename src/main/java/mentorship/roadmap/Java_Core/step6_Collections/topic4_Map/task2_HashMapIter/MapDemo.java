@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class MapDemo {
     public static void main(String[] args) {
+        int val =75;
         Map<String,Integer> studInfo = new HashMap<>();
         studInfo.put("Alice", 85);
         studInfo.put("Bob", 72);
@@ -12,7 +13,7 @@ public class MapDemo {
         studInfo.put("Diana", 68);
 
         for (Map.Entry<String,Integer> map: studInfo.entrySet()) {
-            if (map.getValue() > 75) {
+            if (map.getValue() > val) {
                 System.out.println(map.getKey());
             }
         }

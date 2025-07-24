@@ -10,6 +10,7 @@ public class HashSetDemo {
         for (int i = 0; i < 5; i++) {
             String some = "product" + counter;
             counter++;
+            hashSet.add(some);
         }
         hashSet.add("product1");
         hashSet.add("2");
