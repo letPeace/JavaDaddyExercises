@@ -1,10 +1,11 @@
 package mentorship.roadmap.Java_Core.step6_Collections.topic2_Set.task2_TreeSet.subtask3_TreeSetRanges;
 
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class TreeSetRanges {
     public static void main(String[] args) {
-        TreeSet<Integer> nums = new TreeSet<>();
+        SortedSet<Integer> nums = new TreeSet<>();
         for (int i = 1; i <= 20; i++) {
             nums.add(i);
         }

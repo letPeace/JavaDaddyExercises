@@ -2,12 +2,13 @@ package mentorship.roadmap.Java_Core.step6_Collections.topic2_Set.task1_HashSet.
 
 import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class DuplicateChecker {
     public static void main(String[] args) {
 
 
-        HashSet<String> demoHash = new HashSet<>();
+        Set<String> demoHash = new HashSet<>();
         Scanner scanner = new Scanner(System.in);
         while (true) {
             String input = scanner.nextLine();

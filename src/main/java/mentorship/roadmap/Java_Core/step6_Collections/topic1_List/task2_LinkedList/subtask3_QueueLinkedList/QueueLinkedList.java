@@ -1,11 +1,12 @@
 package mentorship.roadmap.Java_Core.step6_Collections.topic1_List.task2_LinkedList.subtask3_QueueLinkedList;
 
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class QueueLinkedList {
     public static void main(String[] args) {
 
-        LinkedList<String> str = new LinkedList<>();
+        Queue<String> str = new LinkedList<>();
 
         str.offer("One");
         str.offer("Two");

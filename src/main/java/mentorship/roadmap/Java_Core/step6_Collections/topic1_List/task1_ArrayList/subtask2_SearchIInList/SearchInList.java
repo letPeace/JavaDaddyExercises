@@ -2,12 +2,13 @@ package mentorship.roadmap.Java_Core.step6_Collections.topic1_List.task1_ArrayLi
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class SearchInList {
     public static void main(String[] args) {
 
-        ArrayList<String> demoList = new ArrayList<>(Arrays.asList("Иван", "Елена", "Филипп", "Наталья"));
+        List<String> demoList = new ArrayList<>(Arrays.asList("Иван", "Елена", "Филипп", "Наталья"));
 
         Scanner scanner = new Scanner(System.in);
 

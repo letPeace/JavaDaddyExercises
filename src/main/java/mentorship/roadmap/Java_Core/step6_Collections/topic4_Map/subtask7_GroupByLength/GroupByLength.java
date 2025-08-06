@@ -3,11 +3,12 @@ package mentorship.roadmap.Java_Core.step6_Collections.topic4_Map.subtask7_Group
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class GroupByLength {
     public static void main(String[] args) {
         String[] words = {"hi", "hello", "hey", "hola", "yo", "bonjour"};
-        HashMap<Integer, List<String>> wordsMap = new HashMap<>();
+        Map<Integer, List<String>> wordsMap = new HashMap<>();
 
         for (String word : words) {
             int length = word.length();

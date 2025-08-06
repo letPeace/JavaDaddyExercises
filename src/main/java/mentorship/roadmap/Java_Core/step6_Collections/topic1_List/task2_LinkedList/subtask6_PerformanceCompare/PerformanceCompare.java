@@ -2,10 +2,11 @@ package mentorship.roadmap.Java_Core.step6_Collections.topic1_List.task2_LinkedL
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class PerformanceCompare {
     public static void main(String[] args) {
-        ArrayList<Integer> testAl = new ArrayList<>();
+        List<Integer> testAl = new ArrayList<>();
         LinkedList<Integer> testLl = new LinkedList<>();
 
 

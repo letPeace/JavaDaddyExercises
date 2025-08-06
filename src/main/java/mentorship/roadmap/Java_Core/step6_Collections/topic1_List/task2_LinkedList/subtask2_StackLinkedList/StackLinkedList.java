@@ -1,10 +1,11 @@
 package mentorship.roadmap.Java_Core.step6_Collections.topic1_List.task2_LinkedList.subtask2_StackLinkedList;
 
+import java.util.Deque;
 import java.util.LinkedList;
 
 public class StackLinkedList {
     public static void main(String[] args) {
-        LinkedList<Integer> demoList = new LinkedList<>();
+        Deque<Integer> demoList = new LinkedList<>();
 
         demoList.push(1);
         demoList.push(2);

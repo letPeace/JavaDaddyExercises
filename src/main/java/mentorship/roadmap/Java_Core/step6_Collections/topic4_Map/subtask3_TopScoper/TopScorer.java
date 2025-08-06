@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class TopScorer {
     public static void main(String[] args) {
-        HashMap<String, Integer> personsPoints = new HashMap<>();
+        Map<String, Integer> personsPoints = new HashMap<>();
         personsPoints.put("Alex", 22);
         personsPoints.put("Carl", 89);
         personsPoints.put("Bob", 62);

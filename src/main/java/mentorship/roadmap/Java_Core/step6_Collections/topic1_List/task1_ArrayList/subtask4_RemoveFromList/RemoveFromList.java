@@ -2,10 +2,11 @@ package mentorship.roadmap.Java_Core.step6_Collections.topic1_List.task1_ArrayLi
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class RemoveFromList {
     public static void main(String[] args) {
-        ArrayList<String> names = new ArrayList<>(Arrays.asList("Филипп","Наталья","Иван","Елена"));
+        List<String> names = new ArrayList<>(Arrays.asList("Филипп","Наталья","Иван","Елена"));
         System.out.println(names);
         names.remove(2);
         System.out.println(names);

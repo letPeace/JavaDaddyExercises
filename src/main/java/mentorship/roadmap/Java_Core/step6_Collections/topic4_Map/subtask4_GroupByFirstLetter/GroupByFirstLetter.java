@@ -3,11 +3,12 @@ package mentorship.roadmap.Java_Core.step6_Collections.topic4_Map.subtask4_Group
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class GroupByFirstLetter {
     public static void main(String[] args) {
         String[] names = {"Филипп", "Наташа", "Володя", "Виктор"};
-        HashMap<Character, List<String>> namesMap = new HashMap<>();
+        Map<Character, List<String>> namesMap = new HashMap<>();
 
         for (String name : names) {
             char first = name.charAt(0);
